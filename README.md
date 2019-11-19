@@ -28,23 +28,29 @@
 
 Method 1
 ```
-Name:
-Description:
+Name:search()
+Description: searches for a specific value string and returns the postion of it 
 Example using it:
+let m="my name is modhi"
+var loc = m.search("modhi"); // returns the index 11
 ```
 
 Method 2
 ```
-Name:
-Description:
+Name: slice()
+Description: takes two Parameter to slice a string one is the start point and the other is the end point where the end is not included . 
 Example using it:
+let str = "me, you, i";
+let Sliced  = str.slice(4, 8);
 ```
 
 Method 3
 ```
-Name:
-Description:
+Name: replace()
+Description: takes two strings one is an already Existing string and the other is the new replaced string
 Example using it:
+let me = "I am Modhi Aldughaiyem";
+let rep = str.replace("Modhi", "meme");
 ```
 
 ## [License](LICENSE)

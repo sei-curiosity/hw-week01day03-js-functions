@@ -28,23 +28,35 @@
 
 Method 1
 ```
-Name:
+Name: toExponential() 
 Description:
+toExponential() returns a string, with a number rounded and written using exponential notation. A parameter defines the number of characters behind the decimal point
 Example using it:
+let k = 9.656;
+     
+k.toExponential(4);
+the result is: 9.6560e+0
 ```
 
 Method 2
 ```
-Name:
+Name: parseInt()
 Description:
+parseInt() parses a string and returns a whole number. Spaces are allowed. Only the first number is returned
 Example using it:
+parseInt("10.33")
+the result is: 10
 ```
 
 Method 3
 ```
-Name:
-Description:
+Name: toLowerCase()
+Description: toLowerCase() A string is converted to lower case 
 Example using it:
+let t1 = "Hello World!";       
+let t2 = text1.toUpperCase();
+console.log(`${t2}`) 
+the result is : HELLO WORLD!
 ```
 
 ## [License](LICENSE)

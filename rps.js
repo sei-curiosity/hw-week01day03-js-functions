@@ -48,8 +48,13 @@ let r = "rock";
                     return "scissors wins";
                 }
             }
+            
+            
+        }
+      
         }
         getRandomInt(3);
-        }
+        console.log("User choice: and Computer " );
+        console.log(comparision( x ,user_choice));
        
-       
+    

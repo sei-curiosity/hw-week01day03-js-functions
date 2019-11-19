@@ -28,23 +28,31 @@
 
 Method 1
 ```
-Name:
-Description:
+Name:search()
+Description: the search() method searches a string for a specified value and returns the position of the match
 Example using it:
+let str = "Please locate where 'locate' occurs!";
+let pos = str.search("locate");
+
 ```
 
 Method 2
 ```
-Name:
-Description:
+Name: lastIndexOf()
+Description: The lastIndexOf() method returns the index of the last occurrence of a specified text in a string
 Example using it:
+let str = "Please locate where 'locate' occurs!";
+let pos = str.lastIndexOf("locate");
+
 ```
 
 Method 3
 ```
-Name:
-Description:
-Example using it:
+Name: indexOf()
+Description: The indexOf() method returns the index of (the position of) the first occurrence of a specified text in a string
+Example using it: 
+let str = "Please locate where 'locate' occurs!";
+let pos = str.indexOf("locate");
 ```
 
 ## [License](LICENSE)

@@ -28,23 +28,30 @@
 
 Method 1
 ```
-Name:
-Description:
-Example using it:
+Name: string Length
+Description: he length property returns the length of a string 
+Example using it: var txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+var sln = txt.length;
+
 ```
 
 Method 2
 ```
-Name:
-Description:
-Example using it:
+Name: Searching for a String in a String
+Description: The search() method searches a string for a specified value and returns the position of the match
+
+Example using it:var str = "Please locate where 'locate' occurs!";
+var pos = str.search("locate");
+
 ```
 
 Method 3
 ```
-Name:
-Description:
-Example using it:
+Name:Replacing String Content
+Description: The replace() method replaces a specified value with another value in a string
+Example using it:str = "Please visit Microsoft!";
+var n = str.replace("Microsoft", "W3Schools");
+
 ```
 
 ## [License](LICENSE)

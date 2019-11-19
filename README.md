@@ -28,23 +28,35 @@
 
 Method 1
 ```
-Name:
-Description:
-Example using it:
+Name: 
+length
+Description: 
+this method will return the length of a string
+Example using it: 
+let name = "Mona Alghaihab";
+let name-len = name.length;
 ```
 
 Method 2
 ```
 Name:
+replace()
 Description:
+this method will replaces the first match of the first parameter with the second parameter
 Example using it:
+let word = "i enjoy programming with C#";
+let rplcWord = word.replace("C#","JS");
 ```
 
 Method 3
 ```
 Name:
+toUpperCase()
 Description:
+this method will return the string after converted it to upper case
 Example using it:
+let str = "hi everyone";
+let upStr = str.toUpperCase();
 ```
 
 ## [License](LICENSE)

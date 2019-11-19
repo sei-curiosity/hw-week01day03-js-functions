@@ -28,23 +28,34 @@
 
 Method 1
 ```
-Name:
-Description:
+Name:search()
+Description:is a method searches a string for a specified value and returns the position of the match.
 Example using it:
+let str = "Please locate where 'locate' occurs!";
+let pos = str.search("locate");
 ```
 
 Method 2
 ```
-Name:
-Description:
+Name:lastIndexOf()
+Description: method returns the index of the last occurrence of a specified text in a string
 Example using it:
+let str = "Please locate where 'locate' occurs!";
+let pos = str.lastIndexOf("locate");
 ```
 
 Method 3
 ```
-Name:
-Description:
+Name:slice() 
+Description:extracts a part of a string and returns the extracted part in a new string.
 Example using it:
+var str = "Apple, Banana, Kiwi";
+var res = str.slice(7, 13);
+```
+the result of res will be:
+
+Banana
+```
 ```
 
 ## [License](LICENSE)

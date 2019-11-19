@@ -16,6 +16,7 @@
     - Write a function that takes `rock`, `paper`, or `scissors` as an argument for the user choose, then chooses `rock`, `paper`, or `scissors` randomly for the computer choose, and returns whether the user `win`, `lose`, or `tie.
     - Example: `playGame('rock') // Computer picked: paper. User picked: rock.  User lose.`
     - _**Hint:** Javascript includes a `Math.random` method._
+  
 
 2. Dice Roller
     - Create a file in this repo and name it `dice.js`
@@ -28,23 +29,29 @@
 
 Method 1
 ```
-Name:
-Description:
-Example using it:
+Name: string length
+Description: show the length of the string
+Example using it: const document = "this is a text"
+                   let i = document.length ;
+                   console.log(i);
 ```
 
 Method 2
 ```
-Name:
-Description:
-Example using it:
+Name:substring();
+Description: cut part if the string and display it
+Example using it: const document = "this is a text"
+                   let i = document.substring(10,14) ;
+                   console.log(i);
 ```
 
 Method 3
 ```
-Name:
-Description:
-Example using it:
+Name: toUpperCase();
+Description: make the letters in the text upper case
+Example using it: const document = "this is a text"
+                   let i = document.toUpperCase() ;
+                   console.log(i);
 ```
 
 ## [License](LICENSE)

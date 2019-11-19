@@ -28,23 +28,32 @@
 
 Method 1
 ```
-Name:
-Description:
-Example using it:
+Name: toUpperCase()
+Description: A string is converted to upper case
+Example using it: 
+var text1 = "Hello World!";    
+var text2 = text1.toUpperCase();
+// text2 = "HELLO WORLD!"
 ```
 
 Method 2
 ```
-Name:
-Description:
+Name: length
+Description: Returns the length of a string
 Example using it:
+ var txt = "ABC";
+var sln = txt.length;
+// sln = 3
 ```
 
 Method 3
 ```
-Name:
-Description:
+Name: Property Access
+Description: Allows property access [ ] on strings // Returns the letter in the specified index number
 Example using it:
+var str = "HELLO WORLD";
+str[0];                   
+// returns H
 ```
 
 ## [License](LICENSE)

@@ -19,8 +19,8 @@ console.log("Your choice is "+userChoice)
 }
 else{
     computerChoice = "scissors";
-console.log("Computer's choice is "+computerChoice)
-console.log("Your choice is "+userChoice)
+console.log("Computer picked: "+computerChoice)
+console.log("User picked: "+userChoice)
 
 
 }
@@ -30,7 +30,7 @@ console.log("Your choice is "+userChoice)
 ///
 
 
-const compare = function(user,computer){
+const playGame = function(user,computer){
     if(user===computer){
         return "The result is a tie!";
 
@@ -62,4 +62,4 @@ const compare = function(user,computer){
         }
     }
 };
-compare(userChoice,computerChoice);
+playGame(userChoice,computerChoice);

@@ -28,23 +28,23 @@
 
 Method 1
 ```
-Name:
-Description:
-Example using it:
+Name: charAt(index)
+Description: returns the character at the given index
+Example using it: 'Ahmed'.charAt(2) //returns 'm'
 ```
 
 Method 2
 ```
-Name:
-Description:
-Example using it:
+Name: trim()
+Description: removes white space from the right and left sides
+Example using it: '    Ahmed     '.trim() //returns 'Ahmed'
 ```
 
 Method 3
 ```
-Name:
-Description:
-Example using it:
+Name: toUpperCase()
+Description: returns a string with capitalized letters
+Example using it:'Ahmed'.toUpperCase() //returns 'AHMED'
 ```
 
 ## [License](LICENSE)

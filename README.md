@@ -28,23 +28,29 @@
 
 Method 1
 ```
-Name:
-Description:
-Example using it:
+Name: split()
+Description: splits the string into an array of individual strings 
+Example using it: let txt = "a,b,c,d,e";
+let array = []
+arra = txt.split(",");
 ```
 
 Method 2
 ```
-Name:
-Description:
-Example using it:
+Name: indexOf()
+Description: returns the index of the first appearance of a given string
+Example using it:  let str = "Shahad Alalmai";
+let pos = str.indexOf("A");
+pos will be = 7
 ```
 
 Method 3
 ```
-Name:
-Description:
-Example using it:
+Name: String Length
+Description: returns the length of a string:
+Example using it: let txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+let sln = txt.length;
+// will equal sln = 26
 ```
 
 ## [License](LICENSE)

@@ -28,23 +28,30 @@
 
 Method 1
 ```
-Name:
-Description:
-Example using it:
+Name: search()
+Description:  method searches a string for a specified value and returns the position of the match
+Example using it: 
+let str = "Please locate where 'locate' occurs!";
+let pos = str.search("locate");
 ```
 
 Method 2
 ```
-Name:
-Description:
+Name: replace()
+Description: method replaces a specified value with another value in a string:
 Example using it:
+str = "Please visit Microsoft!";
+var n = str.replace("Microsoft", "W3Schools");
 ```
 
 Method 3
 ```
-Name:
-Description:
+Name: concat()
+Description:  method joins two or more strings:
 Example using it:
+var text = "Hello" + " " + "World!";
+var text = "Hello".concat(" ", "World!");
+
 ```
 
 ## [License](LICENSE)

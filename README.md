@@ -1,5 +1,5 @@
 [![General Assembly Logo](https://camo.githubusercontent.com/1a91b05b8f4d44b5bbfb83abac2b0996d8e26c92/687474703a2f2f692e696d6775722e636f6d2f6b6538555354712e706e67)](https://generalassemb.ly/education/web-development-immersive)
- 
+
 # JS Functions HW
 
 ## Instructions
@@ -28,23 +28,29 @@
 
 Method 1
 ```
-Name:
-Description:
+Name: length
+Description:returns the length of a string
 Example using it:
+var txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+var sln = txt.length;
 ```
 
 Method 2
 ```
-Name:
-Description:
+Name:indexOf()
+Description:returns the index of (the position of) the first occurrence of a specified text in a string:
 Example using it:
 ```
+var str = "Please locate where 'locate' occurs!";
+var pos = str.indexOf("locate");
 
 Method 3
 ```
-Name:
-Description:
+Name:lastIndexOf()
+Description:returns the index of the last occurrence of a specified text in a string:
 Example using it:
+var str = "Please locate where 'locate' occurs!";
+var pos = str.lastIndexOf("locate");
 ```
 
 ## [License](LICENSE)

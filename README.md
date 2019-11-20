@@ -28,23 +28,27 @@
 
 Method 1
 ```
-Name:
-Description:
-Example using it:
+Name:length
+Description:property returns the length of a string
+Example using it: let txt=" rana"
+                   let c=txt.length;
 ```
 
 Method 2
 ```
-Name:
-Description:
-Example using it:
+Name:The lastIndexOf() 
+Description:method returns the index of the last occurrence of a specified text in a string
+Example using it: let txt['r','n']
+                   let c=txt.lastIndexOf('n')
+
 ```
 
 Method 3
 ```
-Name:
-Description:
-Example using it:
+Name:replace
+Description: to replace value in string
+Example using it:str = "Please visit Microsoft!";
+var n = str.replace("Microsoft", "W3Schools");
 ```
 
 ## [License](LICENSE)

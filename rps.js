@@ -41,8 +41,6 @@ const getComputerShape = function() {
     return "paper";
   } else if (computerShapeIndex === 2) {
     return "scissors";
-  } else {
-    return computerShapeIndex;
   }
 };
 

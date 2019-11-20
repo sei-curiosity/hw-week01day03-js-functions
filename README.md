@@ -28,23 +28,37 @@
 
 Method 1
 ```
-Name:
-Description:
-Example using it:
+Name: indexOf()
+
+Description: method returns the index of (the position of) the first occurrence of a specified text in a string
+
+Example using it:  var str = "Please locate where 'locate' occurs!";
+var pos = str.indexOf("locate");
+ // output 7
 ```
 
 Method 2
 ```
-Name:
-Description:
-Example using it:
+Name: length 
+
+Description: property returns the length of a string
+
+Example using it: var txt = "Abdullah";
+var sln = txt.length;
+
+// output 8 
 ```
 
 Method 3
 ```
-Name:
-Description:
-Example using it:
+Name: search() 
+
+Description: method searches a string for a specified value and returns the position of the match
+
+Example using it: var str = "Please locate where 'locate' occurs!";
+var pos = str.search("where");
+
+// output 14
 ```
 
 ## [License](LICENSE)

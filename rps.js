@@ -14,26 +14,34 @@ const rockPaperScissors = function(userPic) {
   }
 
   if (userPic === computerThing) {
-    return "tie";
-  }
-  let myKey = userPic + computerThing;
-  switch (myKey) {
-    case "rockpaper":
-      return "lose";
-    case "paperrock":
-      return "win";
-    case "scissorsrock":
-      return "lose";
-    case "rockscissors":
-      return "win";
-    case "paperscissors":
-      return "lose";
-    case "scissorspaper":
-      return "win";
+    result = "tie";
+  } else {
+    let myKey = userPic + computerThing;
+    switch (myKey) {
+      case "rockpaper":
+        result = "lose";
+        break;
+      case "paperrock":
+        result = "win";
+        break;
+      case "scissorsrock":
+        result = "lose";
+        break;
+      case "rockscissors":
+        result = "win";
+        break;
+      case "paperscissors":
+        result = "lose";
+        break;
+      case "scissorspaper":
+        result = "win";
+        break;
 
-    default:
-      return "Wrong Choice!";
+      default:
+        result = "Wrong Choice!";
+    }
   }
+  return result;
 };
 
 rockPaperScissors(0);

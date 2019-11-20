@@ -28,23 +28,27 @@
 
 Method 1
 ```
-Name:
+Name:The substr() Method
 Description:
-Example using it:
+Example using it: var str = "Apple, Banana, Kiwi";
+                             var res = str.substr(7, 6);
 ```
 
 Method 2
 ```
-Name:
+Name: The concat() Method
 Description:
-Example using it:
+Example using it: var text1 = "Hello";
+                  var text2 = "World";
+                  var text3 = text1.concat(" ", text2);
 ```
 
 Method 3
 ```
-Name:
+Name: The charAt() Method
 Description:
-Example using it:
+Example using it: var str = "HELLO WORLD";
+                 str.charAt(0);            // returns H
 ```
 
 ## [License](LICENSE)

@@ -28,9 +28,11 @@
 
 Method 1
 ```
-Name:
-Description:
+Name:slice()
+Description:extracts a part of a string and returns the extracted part in a new string.
 Example using it:
+str='sali tali mali'
+str.slice(6,10)
 ```
 
 Method 2
@@ -38,6 +40,7 @@ Method 2
 Name:
 Description:
 Example using it:
+
 ```
 
 Method 3

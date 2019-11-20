@@ -28,23 +28,23 @@
 
 Method 1
 ```
-Name:
-Description:
-Example using it:
+Name: replace(pattren, text)
+Description: replaces a specified value with another value in a string
+Example using it: "Hello, World".replace("World", "Sami") -> Output: Hello, Sami
 ```
 
 Method 2
 ```
-Name:
-Description:
-Example using it:
+Name: slice(start, end)
+Description: extracts a part of a string and returns the extracted part in a new string
+Example using it: "I love Coffee".slice(7, 13) -> Output: Coffee
 ```
 
 Method 3
 ```
-Name:
-Description:
-Example using it:
+Name: toUpperCase()
+Description: convert string to upper case
+Example using it: "good morning".toUpperCase() -> Output: GOOD MORNING
 ```
 
 ## [License](LICENSE)

@@ -21,6 +21,14 @@ const getWinner = function(userShape, computerShape) {
     }
   }
 
+  if (userShape === "scissors") {
+    if (computerShape === "rock") {
+      winner += "Computer won!";
+    } else {
+      winner += "User won!";
+    }
+  }
+
   return winner;
 };
 

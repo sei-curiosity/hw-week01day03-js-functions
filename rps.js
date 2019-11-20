@@ -1,4 +1,6 @@
 let computerThing = "";
+let myKey = "";
+
 const rockPaperScissors = function(userPic) {
   let computerPic = Math.floor(Math.random() * 3);
   switch (computerPic) {
@@ -16,7 +18,7 @@ const rockPaperScissors = function(userPic) {
   if (userPic === computerThing) {
     result = "tie";
   } else {
-    let myKey = userPic + computerThing;
+    myKey = userPic + computerThing;
     switch (myKey) {
       case "rockpaper":
         result = "lose";
@@ -44,7 +46,7 @@ const rockPaperScissors = function(userPic) {
   return result;
 };
 
-rockPaperScissors(0);
+//rockPaperScissors(0);
 
 const readline = require("readline").createInterface({
   input: process.stdin,
@@ -54,9 +56,9 @@ const readline = require("readline").createInterface({
 readline.question(`Please type rock OR paper OR scissors:`, inputGame => {
   //console.log(` ${inputNum}`);
   console.log(
-    `Computer picked: ${computerThing}. Game Result: ${rockPaperScissors(
+    ` Game Result: ${rockPaperScissors(
       inputGame
-    )}`
+    )}. Computer picked: ${computerThing}.`
   );
   readline.close();
 });

@@ -1,48 +1,24 @@
 const playGame = function (choice){
     let string = `Computer picked: `;
-    let computerChoice = Math.random();
+    let computerChoice = Math.round(Math.random()*2);
+    let game = ['rock','paper','scissors'];
 
-    if (computerChoice <= 0.33){
-        string += `rock.`;
-        if (choice.toLowerCase()=='rock'){
-            string += ` User picked: rock. it's a tie.`;
-        }
-        else if (choice.toLowerCase()=='paper'){
-            string += ` User picked: paper. user wins.`;
-        }
-        else{
-            string += ` User picked: scissors. user loses.`;
-        }
-        console.log(string);
+    computerChoice = game[computerChoice]
+    string += `${computerChoice} User picked: ${choice}. `;
+    
+    if (choice === computerChoice){
+        string += ` It's a tie`;
     }
-    else if (computerChoice <= 0.66){
-        string += 'paper.';
-        if (choice.toLowerCase()=='rock'){
-            string += ` User picked: rock. user loses.`;
-        }
-        else if (choice.toLowerCase()=='paper'){
-            string += ` User picked: paper. it's a tie.`;
-        }
-        else{
-            string += ` User picked: scissors. user wins.`;
-        }
-        console.log(string);
+    else if ( (game.indexOf(choice)+1)%3 === game.indexOf(computerChoice) ){
+        string += ` Computer wins`;
     }
     else{
-        string += 'scissors.';
-        if (choice.toLowerCase()=='rock'){
-            string += ` User picked: rock. user wins.`;
-        }
-        else if (choice.toLowerCase()=='paper'){
-            string += ` User picked: paper. user loses.`;
-        }
-        else{
-            string += ` User picked: scissors. it's a tie.`;
-        }
-        console.log(string);
+        string += ` User wins`;
     }
+
+    return string;
 }
 
-playGame('rock');
-playGame('paper');
-playGame('scissors');
+console.log(playGame('rock'));
+console.log(playGame('paper'));
+console.log(playGame('scissors'));

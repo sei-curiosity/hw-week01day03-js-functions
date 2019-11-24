@@ -17,7 +17,13 @@ else{
 }
 }
 
-playGame('Rock')
+playGame('scissors')
+
+
+
+
+
+
 
 
 
